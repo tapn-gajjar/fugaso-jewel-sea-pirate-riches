@@ -1,0 +1,141 @@
+{
+  "load":[
+    {"loader":"loadAtlas", "deviceFolder":true, "resolution":true, "name":"Resources-0", "file":"Atlases/"},
+    {"loader":"loadAtlas", "deviceFolder":true, "resolution":true, "name":"UI-0", "file":"Atlases/"},
+    {"loader":"loadAtlas", "name":"coins", "file":"assets/main/Atlases/"},
+    {
+      "loader":"loadAtlas", "deviceFolder":false, "resolution":true, "name":"Local-eng-0", "file":"assets/main/Atlases/",
+      "locMap":{
+        "deu":"Local-deu-0",
+        "esp":"Local-esp-0",
+        "fra":"Local-fra-0",
+        "gre":"Local-gre-0",
+        "hin":"Local-hin-0",
+        "ind":"Local-ind-0",
+        "ita":"Local-ita-0",
+        "jpn":"Local-jpn-0",
+        "kor":"Local-kor-0",
+        "nor":"Local-nor-0",
+        "pol":"Local-pol-0",
+        "prt":"Local-prt-0",
+        "ron":"Local-ron-0",
+        "rus":"Local-rus-0",
+        "swe":"Local-swe-0",
+        "tha":"Local-tha-0",
+        "tur":"Local-tur-0",
+        "ukr":"Local-ukr-0",
+        "vie":"Local-vie-0",
+        "zh_cn":"Local-zh_cn-0",
+        "zh_tw":"Local-zh_tw-0"
+      }
+    },
+
+    {"loader":"loadImage", "active":false, "deviceFolder":false, "name":"main_bg.jpg", "file":"assets/main/Single/"},
+
+    {"loader":"loadImage", "active":false, "name":"main.png", "file":"assets/Preview/mobile/"},
+    {"loader":"loadImage", "active":false, "name":"main_v.png", "file":"assets/Preview/mobile/"},
+    {"loader":"loadImage", "active":false, "name":"mobile_pt_1.png", "file":"assets/Preview/mobile/"},
+    {"loader":"loadImage", "active":false, "name":"mobile_pt_2.png", "file":"assets/Preview/mobile/"},
+    {"loader":"loadImage", "active":false, "name":"mobile_pt_3.png", "file":"assets/Preview/mobile/"},
+    {"loader":"loadImage", "active":false, "name":"mobile_pt_4.png", "file":"assets/Preview/mobile/"},
+    {"loader":"loadImage", "active":false, "name":"mobile_v_pt_1.png", "file":"assets/Preview/mobile/"},
+    {"loader":"loadImage", "active":false, "name":"mobile_v_pt_2.png", "file":"assets/Preview/mobile/"},
+    {"loader":"loadImage", "active":false, "name":"mobile_v_pt_3.png", "file":"assets/Preview/mobile/"},
+
+    {"loader":"loadAnimationAtlas", "active":false, "url":"assets/main/Animations/", "pref":"effects-", "suf":"", "round":[0, 2]},
+
+    {"loader":"loadSpine", "jpContent":true, "name":"chestbox_mini", "file":"assets/main/Animations/Spine/"},
+    {"loader":"loadSpine", "jpContent":true, "name":"chestbox_win", "file":"assets/main/Animations/Spine/"},
+    {"loader":"loadSpine", "jpContent":true, "name":"d2d_jackpot", "file":"assets/main/Animations/Spine/"},
+
+    {"loader":"loadSpine", "url":"assets/main/Animations/Spine/", "pref":"symb_", "suf":"", "round":[0, 7]},
+    {"loader":"loadSpine", "name":"logo", "file":"assets/main/Animations/Spine/"},
+    {"loader":"loadSpine", "name":"bg", "file":"assets/main/Animations/Spine/"},
+    {"loader":"loadSpine", "name":"paytable_feature", "file":"assets/main/Animations/Spine/"},
+    {"loader":"loadSpine", "name":"Gang", "file":"assets/main/Animations/Spine/"},
+
+    {"loader":"loadAudioSprite", "name":"sounds", "file":"assets/Sounds/AudioSprite/sounds"},
+
+    {"loader":"loadBitmapFont", "name":"win_font", "file":"assets/font/"},
+    {"loader":"loadBitmapFont", "name":"big_win_font", "file":"assets/font/"},
+    {"loader":"loadBitmapFont", "name":"paytable_numbers_font", "file":"assets/font/"},
+    {
+      "loader":"loadBitmapFont", "name":"paytable_title_font", "file":"assets/font/", "locMap":{
+      "jpn":"paytable_title_font_jp-JP",
+      "hin":"paytable_title_font_hi-HIN",
+      "kor":"paytable_title_font_ko-KOR",
+      "tha":"paytable_title_font_th-THA",
+      "zh_cn":"paytable_title_font_zh-CN",
+      "zh_tw":"paytable_title_font_zh-TW"
+    }
+    },
+
+    {"loader":"loadBitmapFont", "jpContent":true, "name":"jackpot_font", "file":"assets/font/"},
+    {
+      "loader":"loadBitmapFont", "jpContent":true, "name":"jackpot_title_70", "file":"assets/font/", "locMap":{
+      "jpn":"jackpot_title_70_jp_JP",
+      "hin":"jackpot_title_70_hi-HIN",
+      "kor":"jackpot_title_70_ko-KOR",
+      "tha":"jackpot_title_70_th-THA",
+      "vie":"jackpot_title_70_vi-VIE",
+      "zh_cn":"jackpot_title_70_zh-CN",
+      "zh_tw":"jackpot_title_70_zh-TW"
+    }
+    },
+    {
+      "loader":"loadBitmapFont", "jpContent":true, "name":"jackpot_title_font_30", "file":"assets/font/", "locMap":{
+      "jpn":"jackpot_title_font_30_jp-JP",
+      "hin":"jackpot_title_font_30_hi-HIN",
+      "kor":"jackpot_title_font_30_ko-KOR",
+      "tha":"jackpot_title_font_30_th-THA",
+      "vie":"jackpot_title_font_30_vi-VIE",
+      "zh_cn":"jackpot_title_font_30_zh-CN",
+      "zh_tw":"jackpot_title_font_30_zh-TW"
+    }
+    },
+    {
+      "loader":"loadBitmapFont", "name":"t_history_font", "file":"assets/font/",
+      "locMap":{
+        "gre,rus,ukr,vie":"t_history_font_gre",
+        "jpn":"t_history_font_jpn",
+        "kor":"t_history_font_kor",
+        "tha":"t_history_font_tha",
+        "zh_cn,zh_tw":"t_history_font_zh_cn"
+      },
+      "dyMap":{
+        "rus":-18,
+        "ukr":-18,
+        "vie":-18,
+        "gre":-18
+      },
+      "lineHeight":{
+        "t_history_font": 8,
+        "t_history_font_gre":5,
+        "t_history_font_jpn":18,
+        "t_history_font_kor":18,
+        "t_history_font_zh_cn":18
+      }
+    },
+
+    {"loader":"loadJson", "deviceFolder":true, "name":"GDGui", "file":""},
+    {"loader":"loadJson", "name":"GDMain", "file":"assets/"},
+    {"loader":"loadJson", "name":"GDReality", "file":"assets/"},
+    {"loader":"loadJson", "name":"GDReels", "file":"assets/"},
+    {"loader":"loadJson", "name":"GDSlotSymbol", "file":"assets/"},
+    {"loader":"loadJson", "name":"GDWinEffect", "file":"assets/"},
+    {"loader":"loadJson", "active":0, "name":"GDFreeGameBegin", "file":"assets/"},
+    {"loader":"loadJson", "active":0, "name":"GDFreeGameEnd", "file":"assets/"},
+    {"loader":"loadJson", "active":0, "name":"GDFreeInFree", "file":"assets/"},
+    {"loader":"loadJson", "name":"GDBet", "file":"assets/"},
+    {"loader":"loadJson", "name":"GDMenu", "file":"assets/"},
+    {"loader":"loadJson", "name":"GDCalc", "file":"assets/"},
+    {"loader":"loadJson", "name":"GDHistoryBlock", "file":"assets/"},
+    {"loader":"loadJson", "active":0, "name":"GDIntro", "file":"assets/"},
+
+    {"loader":"loadJson", "active":1, "name":"ThemeGui", "file":"assets/tournament/"}
+  ],
+  "particle":[
+    {"name":"New Bundle", "file":""}
+  ],
+  "spriteSheetEff":null
+}

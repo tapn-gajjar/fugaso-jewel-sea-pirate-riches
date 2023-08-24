@@ -1,0 +1,41 @@
+
+symb_4.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Layer 38
+  rotate: false
+  xy: 179, 87
+  size: 96, 149
+  orig: 96, 149
+  offset: 0, 0
+  index: -1
+Layer 45 copy
+  rotate: true
+  xy: 1, 1
+  size: 15, 9
+  orig: 15, 9
+  offset: 0, 0
+  index: -1
+Layer 46 copy 2
+  rotate: true
+  xy: 1, 17
+  size: 16, 9
+  orig: 16, 9
+  offset: 0, 0
+  index: -1
+Layer 47
+  rotate: false
+  xy: 1, 34
+  size: 177, 202
+  orig: 177, 202
+  offset: 0, 0
+  index: -1
+efwewfwe_00000
+  rotate: false
+  xy: 1, 237
+  size: 232, 239
+  orig: 251, 251
+  offset: 13, 4
+  index: -1

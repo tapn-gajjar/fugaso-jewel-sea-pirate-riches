@@ -1,0 +1,13 @@
+{
+  "debug":0,
+
+  "i_logo":{"x":333, "y":23, "texture":"app_logo", "debug":0},
+  "i_win":{"x":0, "y":0, "texture":"panel_win", "atlas":"UIAtlas", "debug":0},
+
+  "t_win":{
+    "x":402, "y":48, "width":401, "align":"center", "height":63, "alignV":"middle",
+    "text":"0",
+    "font":{"size":51, "name":"win_font"},
+    "type":"textNumberBitmap", "oneLine":true, "fill":"#FEFE32", "debug":0
+  }
+}

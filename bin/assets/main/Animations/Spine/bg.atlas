@@ -1,0 +1,33 @@
+
+bg.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Backgrgaound
+  rotate: false
+  xy: 101, 941
+  size: 1920, 1080
+  orig: 1920, 1080
+  offset: 0, 0
+  index: -1
+bubble
+  rotate: false
+  xy: 1, 1922
+  size: 99, 99
+  orig: 99, 99
+  offset: 0, 0
+  index: -1
+
+bg2.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Layer 6
+  rotate: false
+  xy: 1, 841
+  size: 1920, 1080
+  orig: 1920, 1080
+  offset: 0, 0
+  index: -1

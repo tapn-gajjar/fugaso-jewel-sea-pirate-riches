@@ -1,0 +1,27 @@
+
+symb_1.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Group 10
+  rotate: true
+  xy: 210, 208
+  size: 166, 164
+  orig: 166, 164
+  offset: 0, 0
+  index: -1
+Group 9
+  rotate: false
+  xy: 1, 171
+  size: 208, 203
+  orig: 208, 203
+  offset: 0, 0
+  index: -1
+Group 9 copy
+  rotate: false
+  xy: 1, 171
+  size: 208, 203
+  orig: 208, 203
+  offset: 0, 0
+  index: -1

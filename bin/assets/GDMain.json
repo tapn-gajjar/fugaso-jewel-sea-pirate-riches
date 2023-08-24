@@ -1,0 +1,553 @@
+{
+  "sdx":0.5, "sdy":0.5,
+
+  "debug":0,
+  "wait_delay_loop":0,
+  "timer_start_free":2.2,
+
+  "reelMask":{"x":5, "y":23, "width":890, "height":516, "debug":0},
+  "m_reelMask":{"x":5, "y":23, "width":890, "height":516, "debug":0},
+
+  "entities":[
+    {
+      "x":0, "y":0,
+      "m_x":0, "m_y":0, "sdx":-0.5, "sdy":-0.5,
+      "v_x":0, "v_y":0,
+      "m_i_width":1920, "m_i_height":1080,
+      "v_i_width":1920, "v_i_height":1080,
+      "interactiveChildren":false, "centered":false,
+      "type":"container", "name":"c_game_bg", "debug":0,
+      "entities":[
+        {
+          "x":0, "y":0,
+          "v_x":-147, "v_y":-22,
+          "type":"sprite", "texture":"main_bg.jpg", "1v_texture":"game_bg_v", "name":"s_game_bg", "debug":0, "active":0
+        },
+        {
+          "x":958, "y":541, "dx":0, "dy":0, "speed":1,
+          "v_x":655, "v_y":541,
+          "play":true, "playLoop":true,
+          "textures":"bg", "custom_a_name":"bg_animation", "name":"s_game_bg",
+          "type":"actorSpine", "debug":0
+        }
+      ]
+    },
+
+    {
+      "x":0, "y":0,
+      "m_x":0, "m_y":0,
+      "v_x":0, "v_y":0,
+      "1width":1280, "1height":720,
+      "type":"sprite", "texture":"main.png", "m_texture":"auto_pre2",
+      "v_texture":"main_v.png", "name":"preview", "debug":0, "active":0
+    },
+
+    {
+      "x":190, "y":76,
+      "v_x":1, "v_y":236, "v_sdy":0, "v_scale":0.59,
+      "interactiveChildren":false, "type":"container", "debug":0,
+      "name":"reels",
+      "entities":[
+        {
+          "x":19, "y":12, "scaleX":1.0, "scaleY":1,
+          "type":"sprite", "texture":"reel_grid", "name":"s_reel_grid", "debug":0
+        },
+        {
+          "x":0, "y":0, "debug":0, "name":"reel_canvas", "type":"container"
+        },
+        {
+          "x":0, "y":0,
+          "texture":"main_frame",
+          "name":"main_frame", "type":"sprite", "debug":0, "alpha":1
+        },
+        {
+          "x":0, "y":0,
+          "interactiveChildren":true, "centered":false, "cacheAsBitmap":false,
+          "type":"container", "name":"c_effects", "debug":0, "active":10,
+          "alpha_time":0.3,
+          "entities":[
+            {
+              "x":-16, "y":197, "scale":0.697, "dx":0, "dy":0, "speed":1,
+              "play":true, "playLoop":false,
+              "textures":"Gang", "custom_a_name":"6-Shine effect", "name":"reel_2",
+              "type":"actorSpine", "debug":0
+            },
+            {
+              "x":158, "y":197, "scale":0.697, "dx":0, "dy":0, "speed":1,
+              "play":true, "playLoop":false,
+              "textures":"Gang", "custom_a_name":"6-Shine effect", "name":"reel_3",
+              "type":"actorSpine", "debug":0
+            }
+          ]
+        },
+        {
+          "x":0, "y":0,
+          "interactiveChildren":true, "centered":false, "cacheAsBitmap":false,
+          "type":"container", "name":"c_coins", "debug":0, "active":10,
+          "alpha_time":1.0,
+          "entities":[
+            {
+              "x":-143, "y":214, "scale":0.647, "dx":0, "dy":0, "speed":1,
+              "play":true, "playLoop":false, "bonus_anim":"5-Dokrut and GEMS",
+              "textures":"Gang", "custom_a_name":"4-Dokrut With coins Kuchka", "name":"reel_1",
+              "type":"actorSpine", "debug":0
+            },
+            {
+              "x":21, "y":214, "scale":0.647, "dx":0, "dy":0, "speed":1,
+              "play":true, "playLoop":false, "bonus_anim":"5-Dokrut and GEMS",
+              "textures":"Gang", "custom_a_name":"4-Dokrut With coins Kuchka", "name":"reel_2",
+              "type":"actorSpine", "debug":0
+            },
+            {
+              "x":193, "y":214, "scale":0.647, "dx":0, "dy":0, "speed":1,
+              "play":true, "playLoop":false, "bonus_anim":"5-Dokrut and GEMS",
+              "textures":"Gang", "custom_a_name":"4-Dokrut With coins Kuchka", "name":"reel_3",
+              "type":"actorSpine", "debug":0
+            }
+          ]
+        },
+        {
+          "x":0, "y":0,
+          "interactiveChildren":true, "centered":false, "cacheAsBitmap":false,
+          "type":"container", "name":"c_wilds", "debug":0,
+          "wild":{
+            "x":0, "y":0, "dx":0, "dy":0, "speed":1, "scale":1,
+            "play":false, "playLoop":false,
+            "textures":"symb_7", "custom_a_name":"symb_7_expand", "name":"a_wild",
+            "a_win":"", "symb_7_win":"symb_7_expand",
+            "type":"actorSpine", "debug":0
+          },
+          "entities":[
+          ]
+        }
+      ]
+    },
+
+    {
+      "x":649, "y":40, "scale":0.67, "sdx":0, "m_sdx":0, "m_sdy":0,
+      "v_x":272, "v_y":220, "v_sdy":0, "v_scale":0.57,
+      "debug":0, "name":"c_logo",
+      "type":"container", "centered":false, "deapPosition":true,
+      "entities":[
+        {
+          "x":0, "y":0, "dx":0, "dy":0, "speed":1, "scale":1,
+          "play":true, "playLoop":true,
+          "textures":"logo", "custom_a_name":"logo_animation", "name":"a_logo",
+          "type":"actorSpine", "debug":0
+        }
+      ]
+    },
+
+    {
+      "x":644, "y":310,
+      "v_x":271, "v_y":400, "v_sdy":0, "v_scale":0.59,
+      "interactiveChildren":false, "centered":false,
+      "type":"container", "name":"c_lines", "debug":0,
+      "entities":[
+        {
+          "x":0, "y":0, "type":"sprite", "texture":"winlines", "name":"s_all", "debug":0, "active":0
+        }
+      ]
+    },
+
+    {
+      "x":0, "y":0, "v_scale":0.59,
+      "debug":0, "interactiveChildren":false, "name":"c_win_effect", "type":"container"
+    },
+
+    {
+      "x":0, "y":0,
+      "v_x":-112, "v_y":-2, "v_sdy":0, "v_scale":0.59,
+      "type":"container", "debug":0,
+      "name":"c_numbers",
+
+      "line":{
+        "x":0, "y":0, "debug":0, "autoStart":false, "scaleMod":1,
+        "time":1,
+        "name":"re_", "interactiveChildren":true,
+        "revoltName":"winline", "type":"revoltEmmiter"
+      },
+
+      "entities":[
+        {
+          "x":151, "y":72,
+          "interactiveChildren":false, "centered":false,
+          "type":"container", "name":"g_numberLeft", "debug":0,
+          "entities":[
+          ],
+          "texture":"number_", "winTexture":"number_", "blockTexture":null,
+          "number":{
+            "x":0, "y":0, "type":"sprite",
+            "debug":0
+          },
+
+          "num_":{"x":0, "y":0, "m_y":0, "debug":0, "anchor":0.5}
+        },
+        {
+          "x":1131, "y":88,
+          "m_x":1189, "m_y":62,
+          "interactiveChildren":true, "centered":false,
+          "type":"container", "name":"g_numberRight", "debug":0,
+          "entities":[
+          ],
+          "texture":"number_", "winTexture":"number_", "blockTexture":null,
+          "number":{
+            "x":0, "y":0, "anchor":0.5, "type":"sprite",
+            "debug":0
+          }
+        },
+
+        {
+          "x":465, "y":132,
+          "interactiveChildren":true, "centered":false, "cacheAsBitmap":false,
+          "type":"container", "name":"c_win_value", "debug":0,
+          "tween_time":0.2,
+          "tween_scale_time":0.05,
+          "entities":[
+            {
+              "x":0, "y":0, "anchor":0.5, "type":"sprite", "texture":"win_shadow", "name":"s_win_shadow", "debug":0
+            },
+            {
+              "x":0, "y":-3,
+              "width":300, "height":54, "align":"center", "alignV":"middle",
+              "font":{"size":55, "name":"win_font"}, "1fill":"0x000001", "letterSpacing":1,
+              "checkFontSize":true, "oneLine":true, "toUpperCase":false,
+              "text":"0.00", "type":"textNumberBitmap", "name":"t_value", "debug":0
+            }
+          ]
+        }
+
+      ]
+    },
+    {
+      "x":441, "y":3,
+      "v_x":108, "v_y":198, "v_scale":0.81,
+      "debug":0, "active":0, "name":"c_free_counts",
+      "type":"container", "centered":false,
+
+      "entities":[
+        {
+          "x":0, "y":0,
+          "type":"sprite", "texture":"bonus_tab", "name":"s_bonus_tab", "debug":0
+        },
+        {
+          "x":215, "y":20, "width":246, "height":50,
+          "align":"center", "alignV":"middle", "name":"t_field",
+          "font":{"size":22, "name":"paytable_font"}, "checkFontSize":true,
+          "text":"FREE SPIN %s OF %s", "type":"textBitmap", "oneLine":true, "debug":0
+        },
+        {
+          "x":47, "y":-3, "scale":0.26,
+          "textures":{
+            "D":"symb_10",
+            "E":"symb_11",
+            "F":"symb_12",
+            "G":"symb_13",
+            "H":"symb_14",
+            "I":"symb_15",
+            "X":"symb_16",
+            "Y":"symb_17",
+            "Z":"symb_18"
+          },
+          "type":"sprite", "texture":"symb_18", "name":"s_symb", "debug":0
+        }
+      ]
+    },
+
+    {
+      "jpContent":true,
+      "x":1, "y":209, "sdx":0, "m_sdx":-0.25, "m_sdy":0, "scale":0.9,
+      "v_x":349, "v_y":106, "deepPosition":true, "v_scale":0.88, "v_sdx":0, "v_sdy":-0.25,
+      "interactiveChildren":true, "centered":false, "cacheAsBitmap":false,
+      "type":"container", "name":"c_jackpot", "debug":0,
+      "time_hide_alpha":0.3,
+      "time_lose_move":3,
+      "def_width":294,
+      "test_lose":0,
+      "entities":[
+        {
+          "x":15, "y":7,
+          "v_x":15, "v_y":-81,
+          "interactiveChildren":true, "centered":false, "cacheAsBitmap":false,
+          "type":"container", "name":"c_maxi", "debug":0,
+          "entities":[
+            {
+              "x":0, "y":0,
+              "type":"sprite", "texture":"jackpot/jackpot_field", "name":"s_jackpot_field_1", "debug":0
+            },
+            {
+              "x":0, "y":0,
+              "interactiveChildren":true, "centered":false, "cacheAsBitmap":false,
+              "type":"container", "name":"c_canvas", "debug":0,
+              "entities":[
+                {
+                  "x":82, "y":70,
+                  "width":151, "height":40, "align":"center", "alignV":"middle", "1fontWeight":500,
+                  "fontSize":"26px", "fontName":"BebasFont", "padding":10, "fill":"0xffffff", "letterSpacing":0,
+                  "oneLine":true, "toUpperCase":false, "1stroke":"#1C1918", "1strokeThickness":1,
+                  "locCheck":false,
+                  "text":"0", "type":"textNumberFont", "name":"t_jp", "debug":0
+                },
+                {
+                  "x":95, "y":21,
+                  "interactiveChildren":true, "centered":false, "cacheAsBitmap":false,
+                  "type":"container", "name":"c_jp_counter", "debug":0,
+                  "copy":{
+                    "x":-15, "y":-4, "_texture":"jackpot/jn_",
+                    "type":"sprite", "texture":"jackpot/jn_9", "name":"s_", "debug":0
+                  },
+                  "time":0.7, "dy":5, "delay":0.2,
+                  "entities":[
+                    {
+                      "x":0, "y":0,
+                      "width":19, "height":20, "align":"left", "alignV":"top", "1fontWeight":500,
+                      "fontSize":"30px", "fontName":"BebasFont", "padding":10, "fill":"0xffffff", "oneLine":true,
+                      "locCheck":false,
+                      "text":"€", "type":"textFont", "name":"t_currency", "debug":0
+                    },
+                    {
+                      "x":-15, "y":-4, "_texture":"jackpot/jn_",
+                      "type":"sprite", "texture":"jackpot/jn_9", "name":"s_0", "debug":0
+                    },
+                    {
+                      "x":0, "y":-4, "_texture":"jackpot/jn_",
+                      "type":"sprite", "texture":"jackpot/jn_9", "name":"s_1", "debug":0
+                    },
+                    {
+                      "x":0, "y":-4, "_texture":"jackpot/jn_",
+                      "type":"sprite", "texture":"jackpot/jn_9", "name":"s_2", "debug":0
+                    },
+                    {
+                      "x":0, "y":-4, "_texture":"jackpot/jn_",
+                      "type":"sprite", "texture":"jackpot/jn_9", "name":"s_3", "debug":0
+                    }
+                  ],
+                  "alignContainer":{"x":0.5, "y":0.5, "!rect":{"width":187, "height":46}, "edit":false}
+                },
+
+                {
+                  "x":0, "y":20, "align":"left", "alignV":"middle",
+                  "fontSize":"25px", "fontName":"WebnarJpFont", "fill":"0xffffff", "letterSpacing":0,
+                  "leading":0, "checkFontSize":false, "oneLine":true, "toUpperCase":false,
+                  "locConst":"jackpot_3", "type":"textFont", "name":"t_lose", "debug":0
+                }
+              ]
+            },
+            {
+              "x":2, "y":3,
+              "width":188, "height":35,
+              "color":"0x000000", "alpha":1,
+              "type":"rect", "name":"r_mask", "debug":0
+            }
+          ]
+        },
+        {
+          "x":15, "y":87,
+          "v_x":15, "v_y":-9,
+          "interactiveChildren":true, "centered":false, "cacheAsBitmap":false,
+          "type":"container", "name":"c_midi", "debug":0,
+          "entities":[
+            {
+              "x":0, "y":0,
+              "type":"sprite", "texture":"jackpot/jackpot_field", "name":"s_jackpot_field_2", "debug":0
+            },
+            {
+              "x":0, "y":0,
+              "interactiveChildren":true, "centered":false, "cacheAsBitmap":false,
+              "type":"container", "name":"c_canvas", "debug":0,
+              "entities":[
+                {
+                  "x":82, "y":70,
+                  "width":151, "height":40, "align":"center", "alignV":"middle", "1fontWeight":500,
+                  "fontSize":"26px", "fontName":"BebasFont", "padding":10, "fill":"0xffffff", "letterSpacing":0,
+                  "checkFontSize":true, "oneLine":true, "toUpperCase":false, "1stroke":"#1C1918", "1strokeThickness":1,
+                  "locCheck":false,
+                  "text":"0", "type":"textNumberFont", "name":"t_jp", "debug":0
+                },
+                {
+                  "x":95, "y":21,
+                  "interactiveChildren":true, "centered":false, "cacheAsBitmap":false,
+                  "type":"container", "name":"c_jp_counter", "debug":0,
+                  "copy":{
+                    "x":-15, "y":-4, "_texture":"jackpot/jn_",
+                    "type":"sprite", "texture":"jackpot/jn_9", "name":"s_", "debug":0
+                  },
+                  "time":0.7, "dy":5, "delay":0.2,
+                  "entities":[
+                    {
+                      "x":0, "y":0,
+                      "width":19, "height":20, "align":"left", "alignV":"top", "1fontWeight":500,
+                      "fontSize":"30px", "fontName":"BebasFont", "padding":10, "fill":"0xffffff", "oneLine":true,
+                      "locCheck":false,
+                      "text":"€", "type":"textFont", "name":"t_currency", "debug":0
+                    },
+                    {
+                      "x":-15, "y":-4, "_texture":"jackpot/jn_",
+                      "type":"sprite", "texture":"jackpot/jn_9", "name":"s_0", "debug":0
+                    },
+                    {
+                      "x":0, "y":-4, "_texture":"jackpot/jn_",
+                      "type":"sprite", "texture":"jackpot/jn_9", "name":"s_1", "debug":0
+                    },
+                    {
+                      "x":0, "y":-4, "_texture":"jackpot/jn_",
+                      "type":"sprite", "texture":"jackpot/jn_9", "name":"s_2", "debug":0
+                    },
+                    {
+                      "x":0, "y":-4, "_texture":"jackpot/jn_",
+                      "type":"sprite", "texture":"jackpot/jn_9", "name":"s_3", "debug":0
+                    }
+                  ],
+                  "alignContainer":{"x":0.5, "y":0.5, "!rect":{"width":187, "height":46}, "edit":false}
+                },
+                {
+                  "x":0, "y":20, "align":"left", "alignV":"middle",
+                  "fontSize":"25px", "fontName":"WebnarJpFont", "fill":"0xffffff", "letterSpacing":0,
+                  "leading":0, "checkFontSize":false, "oneLine":true, "toUpperCase":false,
+                  "locConst":"jackpot_3", "type":"textFont", "name":"t_lose", "debug":0
+                }
+              ]
+            },
+            {
+              "x":2, "y":3,
+              "width":188, "height":35,
+              "color":"0x000000", "alpha":1,
+              "type":"rect", "name":"r_mask", "debug":0
+            }
+          ]
+        },
+        {
+          "x":17, "y":168,
+          "v_x":15, "v_y":61,
+          "interactiveChildren":true, "centered":false, "cacheAsBitmap":false,
+          "type":"container", "name":"c_mini", "debug":0,
+          "entities":[
+            {
+              "x":0, "y":0,
+              "type":"sprite", "texture":"jackpot/jackpot_field", "name":"s_jackpot_field_3", "debug":0
+            },
+            {
+              "x":0, "y":0,
+              "interactiveChildren":true, "centered":false, "cacheAsBitmap":false,
+              "type":"container", "name":"c_canvas", "debug":0,
+              "entities":[
+                {
+                  "x":82, "y":70,
+                  "width":151, "height":40, "align":"center", "alignV":"middle", "1fontWeight":500,
+                  "fontSize":"26px", "fontName":"BebasFont", "padding":10, "fill":"0xffffff", "letterSpacing":0,
+                  "checkFontSize":true, "oneLine":true, "toUpperCase":false, "1stroke":"#1C1918", "1strokeThickness":1,
+                  "locCheck":false,
+                  "text":"0", "type":"textNumberFont", "name":"t_jp", "debug":0
+                },
+                {
+                  "x":95, "y":21,
+                  "interactiveChildren":true, "centered":false, "cacheAsBitmap":false,
+                  "type":"container", "name":"c_jp_counter", "debug":0,
+                  "copy":{
+                    "x":-15, "y":-4, "_texture":"jackpot/jn_",
+                    "type":"sprite", "texture":"jackpot/jn_9", "name":"s_", "debug":0
+                  },
+                  "time":0.7, "dy":5, "delay":0.2,
+                  "entities":[
+                    {
+                      "x":0, "y":0,
+                      "width":19, "height":20, "align":"left", "alignV":"top", "1fontWeight":500,
+                      "fontSize":"30px", "fontName":"BebasFont", "padding":10, "fill":"0xffffff", "oneLine":true,
+                      "locCheck":false,
+                      "text":"€", "type":"textFont", "name":"t_currency", "debug":0
+                    },
+                    {
+                      "x":-15, "y":-4, "_texture":"jackpot/jn_",
+                      "type":"sprite", "texture":"jackpot/jn_9", "name":"s_0", "debug":0
+                    },
+                    {
+                      "x":0, "y":-4, "_texture":"jackpot/jn_",
+                      "type":"sprite", "texture":"jackpot/jn_9", "name":"s_1", "debug":0
+                    },
+                    {
+                      "x":0, "y":-4, "_texture":"jackpot/jn_",
+                      "type":"sprite", "texture":"jackpot/jn_9", "name":"s_2", "debug":0
+                    },
+                    {
+                      "x":0, "y":-4, "_texture":"jackpot/jn_",
+                      "type":"sprite", "texture":"jackpot/jn_9", "name":"s_3", "debug":0
+                    }
+                  ],
+                  "alignContainer":{"x":0.5, "y":0.5, "!rect":{"width":187, "height":46}, "edit":false}
+                },
+                {
+                  "x":0, "y":20, "align":"left", "alignV":"middle",
+                  "fontSize":"25px", "fontName":"WebnarJpFont", "fill":"0xffffff", "letterSpacing":0,
+                  "leading":0, "checkFontSize":false, "oneLine":true, "toUpperCase":false,
+                  "locConst":"jackpot_3", "type":"textFont", "name":"t_lose", "debug":0
+                }
+              ]
+            },
+            {
+              "x":2, "y":3,
+              "width":188, "height":35,
+              "color":"0x000000", "alpha":1,
+              "type":"rect", "name":"r_mask", "debug":0
+            }
+          ]
+        },
+
+        {
+          "x":115, "y":335, "dx":0, "dy":0, "speed":1, "scale":0.5,
+          "v_x":-87, "v_y":2,
+          "play":true, "playLoop":true,
+          "textures":"chestbox_mini", "custom_a_name":"idle", "name":"a_chestbox_mini",
+          "type":"actorSpine", "debug":0
+        },
+        {
+          "x":119, "y":-93, "dx":0, "dy":0, "speed":1, "scale":0.88,
+          "v_x":-283, "v_y":-8, "v_scale":0.88,
+          "play":true, "playLoop":true,
+          "textures":"d2d_jackpot", "custom_a_name":"idle", "name":"a_d2d_jackpot",
+          "type":"actorSpine", "debug":0
+        },
+
+        {
+          "x":111, "y":-5,
+          "v_x":113, "v_y":-93, "v_width":173, "-v_fontSize":22, "v_scale":0.85,
+          "width":203, "height":40, "v_height":20, "align":"center", "alignV":"middle",
+          "font":{"size":28, "name":"jackpot_title_font_30"}, "!fill":"0x000001", "letterSpacing":0,
+          "checkFontSize":true, "oneLine":true, "toUpperCase":false,
+          "locConst":"history_action_maxi", "type":"textBitmap", "name":"t_maxi_loc", "debug":0
+        },
+        {
+          "x":111, "y":75,
+          "v_x":113, "v_y":-21, "v_width":173, "-v_fontSize":22, "v_scale":0.85,
+          "width":203, "height":40, "v_height":20, "align":"center", "alignV":"middle",
+          "font":{"size":28, "name":"jackpot_title_font_30"}, "!fill":"0x000001", "letterSpacing":0,
+          "checkFontSize":true, "oneLine":true, "toUpperCase":false,
+          "locConst":"history_action_midi", "type":"textBitmap", "name":"t_midi_loc", "debug":0
+        },
+        {
+          "x":111, "y":156,
+          "v_x":113, "v_y":50, "v_width":173, "-v_fontSize":22, "v_scale":0.85,
+          "width":203, "height":40, "v_height":20, "align":"center", "alignV":"middle",
+          "font":{"size":28, "name":"jackpot_title_font_30"}, "!fill":"0x000001", "letterSpacing":0,
+          "checkFontSize":true, "oneLine":true, "toUpperCase":false,
+          "locConst":"history_action_mini", "type":"textBitmap", "name":"t_mini_loc", "debug":0
+        }
+      ]
+    },
+
+    {
+      "x":0, "y":0, "portrait":false,
+      "interactiveChildren":true, "centered":false,
+      "type":"container", "name":"c_hint_area", "debug":0, "active":false,
+      "construct_mode":0,
+      "rect":{
+        "x":0, "y":0,
+        "width":170, "height":170, "m_width":170, "m_height":170,
+        "color":"0x000000", "alpha":1,
+        "type":"rect", "name":"r_", "debug":0
+      }
+    }
+  ],
+
+  "delay_start_game":4.125,
+  "delay_end_game":3.2
+}

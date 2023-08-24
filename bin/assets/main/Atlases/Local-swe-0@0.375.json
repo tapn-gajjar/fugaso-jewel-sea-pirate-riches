@@ -1,0 +1,20 @@
+{"frames": {
+
+"big_win_sk-SWE":
+{
+	"frame": {"x":1,"y":1,"w":237,"h":68},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":237,"h":68},
+	"sourceSize": {"w":237,"h":68}
+}},
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "Local-swe-0@0.375.png",
+	"format": "RGBA8888",
+	"size": {"w":239,"h":70},
+	"scale": "0.25",
+	"smartupdate": "$TexturePacker:SmartUpdate:707fe7a7449ccc905f5ca7125a7da8ea:7cce7195b9aa1b116f714c15d8a9f14d:e4bcce46f128957712d22dc10d5479d8$"
+}
+}

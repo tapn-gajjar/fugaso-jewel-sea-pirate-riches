@@ -1,0 +1,418 @@
+{
+  "debug":0, "visible":0,
+
+  "x":0, "y":0, "scale":1.0, "sdx":0.5, "sdy":0.5,
+
+  "deepPosition":false,
+  "need_open_page":"",
+
+  "entities":[
+    {
+      "x":0, "y":0, "type":"sprite", "texture":"paytable_bg.jpg", "name":"s_help_bg", "debug":0, "alpha":1, "active":10
+    },
+    {
+      "x":0, "y":0,
+      "width":1280, "height":720,
+      "color":"0x11101D", "alpha":1,
+      "type":"rect", "name":"s_help_bg", "debug":0, "active":0
+    },
+    {
+      "x":0, "y":-20,
+      "m_x":0, "m_y":0,
+      "v_x":0, "v_y":0,
+      "1width":1280, "1height":720,
+      "type":"sprite", "texture":"paytable_2.png", "m_texture":"main_screen",
+      "v_texture":"mobile_v", "name":"s_preview", "debug":0, "active":0
+    },
+    {
+      "x":0, "y":0, "scale":1.0,
+      "m_x":0, "m_y":0, "m_scale":1.0,
+      "interactiveChildren":false, "centered":false,
+      "type":"container", "name":"c_page_layer", "debug":0,
+      "entities":[
+
+      ]
+    },
+
+    {
+      "x":640, "y":612, "sdx":0, "sdy":0.5,
+      "interactiveChildren":true, "centered":false, "cacheAsBitmap":false,
+      "type":"container", "name":"c_navigate", "debug":0,
+      "entities":[
+        {
+          "x":0, "y":0, "dx":0,
+          "type":"button", "name":"b_p_0",
+          "out":"b_p1", "over":"b_p1_active", "down":"b_p1_active", "block":"b_p1_active", "debug":0,
+          "hintAreaRect":{"x":16, "y":26, "width":35, "height":35, "type":0, "debug":0}
+        },
+        {
+          "x":0, "y":0, "dx":30,
+          "type":"button", "name":"b_p_1",
+          "out":"b_p1", "over":"b_p1_active", "down":"b_p1_active", "block":"b_p1_active", "debug":0,
+          "hintAreaRect":{"x":16, "y":26, "width":35, "height":35, "type":0, "debug":0}
+        },
+        {
+          "x":0, "y":0, "dx":30,
+          "type":"button", "name":"b_p_2",
+          "out":"b_p1", "over":"b_p1_active", "down":"b_p1_active", "block":"b_p1_active", "debug":0,
+          "hintAreaRect":{"x":16, "y":26, "width":35, "height":35, "type":0, "debug":0}
+        },
+        {
+          "x":0, "y":0, "dx":30,
+          "type":"button", "name":"b_p_3",
+          "out":"b_p1", "over":"b_p1_active", "down":"b_p1_active", "block":"b_p1_active", "debug":0,
+          "hintAreaRect":{"x":16, "y":26, "width":35, "height":35, "type":0, "debug":0}
+        },
+        {
+          "x":0, "y":0, "dx":30,
+          "type":"button", "name":"b_p_4",
+          "out":"b_p1", "over":"b_p1_active", "down":"b_p1_active", "block":"b_p1_active", "debug":0,
+          "hintAreaRect":{"x":16, "y":26, "width":35, "height":35, "type":0, "debug":0}
+        },
+        {
+          "x":0, "y":0, "dx":30,
+          "type":"button", "name":"b_p_5",
+          "out":"b_p1", "over":"b_p1_active", "down":"b_p1_active", "block":"b_p1_active", "debug":0,
+          "hintAreaRect":{"x":16, "y":26, "width":35, "height":35, "type":0, "debug":0}
+        },
+        {
+          "x":0, "y":0, "dx":30,
+          "type":"button", "name":"b_p_6",
+          "out":"b_p1", "over":"b_p1_active", "down":"b_p1_active", "block":"b_p1_active", "debug":0,
+          "hintAreaRect":{"x":16, "y":26, "width":35, "height":35, "type":0, "debug":0}
+        },
+        {
+          "x":0, "y":0, "dx":30,
+          "type":"button", "name":"b_p_7",
+          "out":"b_p1", "over":"b_p1_active", "down":"b_p1_active", "block":"b_p1_active", "debug":0,
+          "hintAreaRect":{"x":16, "y":26, "width":35, "height":35, "type":0, "debug":0}
+        }
+      ],
+      "alignContainer":{"x":0.5, "y":0, "!rect":{"width":10, "height":10}, "edit":false}
+    },
+    {
+      "x":62, "y":323,
+      "type":"button", "name":"b_prev", "scale":0.7,
+      "out":"b_pt_left_0", "over":"b_pt_left_1", "down":"b_pt_left_2", "block":"b_pt_left_3", "debug":0,
+      "hintAreaRect":{"x":4, "y":4, "width":50, "height":96, "type":0, "debug":0}
+    },
+    {
+      "x":1174, "y":323,
+      "type":"button", "name":"b_next", "scale":0.7,
+      "out":"b_pt_right_0", "over":"b_pt_right_1", "down":"b_pt_right_2", "block":"b_pt_right_3", "debug":0,
+      "hintAreaRect":{"x":4, "y":4, "width":50, "height":96, "type":0, "debug":0}
+    },
+    {
+      "x":1055, "y":19,
+      "oneClick":true,
+      "type":"button", "debug":0, "name":"b_close",
+      "out":"b_close_0", "over":"b_close_1", "down":"b_close_2", "block":"b_close_3"
+    }
+
+  ],
+
+  "pages":[
+    {
+      "x":0, "y":0, "cacheAsBitmap":false,
+      "entities":[
+        {
+          "x":640, "y":51, "width":851, "height":50, "align":"center", "alignV":"middle",
+          "font":{"size":41, "name":"paytable_title_font"}, "checkFontSize":true, "name":"paytable_p1_t01",
+          "locConst":"paytable_p1_t01", "type":"textBitmap", "oneLine":true, "debug":0
+        },
+
+        {
+          "x":635, "y":354, "dx":0, "dy":0, "speed":1,
+          "play":true, "playLoop":true,
+          "textures":"paytable_feature", "custom_a_name":"pt_animation", "name":"a_paytable_feature",
+          "type":"actorSpine", "debug":0
+        },
+
+        {
+          "x":640, "y":80, "width":1087, "height":130, "align":"center", "alignV":"top",
+          "fontSize":"23px", "fontName":"Akrobat", "letterSpacing":0, "fill":"white",
+          "leading":0, "checkFontSize":true, "oneLine":false, "toUpperCase":true,
+          "locConfig": {
+            "gre": {"toUpperCase":false}
+          },
+          "locConst":"paytable_p1_t02", "type":"textFont", "name":"paytable_p1_t02", "debug":0
+        },
+        {
+          "x":640, "y":519, "width":1087, "height":117, "align":"center", "alignV":"top",
+          "fontSize":"18px", "fontName":"Akrobat", "letterSpacing":0, "fill":"white",
+          "leading":0, "checkFontSize":true, "oneLine":false, "toUpperCase":true,
+          "locConfig": {
+            "gre": {"toUpperCase":false}
+          },
+          "locConst":"paytable_p1_t03", "type":"textFont", "name":"paytable_p1_t03", "debug":0
+        }
+      ]
+    },
+    {
+      "x":0, "y":0, "cacheAsBitmap":false,
+
+      "-t_copy_1":{
+        "x":0, "y":0, "width":157, "height":50, "align":"right", "alignV":"middle",
+        "fontSize":"28px", "fontName":"Akrobat", "fill":"0xfff", "letterSpacing":0,
+        "leading":0, "checkFontSize":true, "oneLine":true, "toUpperCase":false,
+        "locCheck":false,
+        "text":"", "type":"textNumberFont", "name":"t_", "debug":0
+      },
+      "t_copy_1":{
+        "x":0, "y":0,
+        "width":157, "height":50, "align":"left", "alignV":"middle",
+        "font":{"size":27, "name":"paytable_numbers_font"}, "1fill":"0x000001", "letterSpacing":0,
+        "checkFontSize":false, "oneLine":true, "toUpperCase":false, "locCheck":true,
+        "text":"0", "type":"textNumberBitmap", "name":"t_", "debug":0
+      },
+      "texts_1":{
+        "C_5":{"x":421, "y":149, "debug":0},
+        "C_4":{"x":421, "y":181, "debug":0},
+        "C_3":{"x":421, "y":213, "debug":0},
+        "D_5":{"x":722, "y":149, "debug":0},
+        "D_4":{"x":722, "y":181, "debug":0},
+        "D_3":{"x":722, "y":213, "debug":0},
+        "E_5":{"x":1014, "y":149, "debug":0},
+        "E_4":{"x":1014, "y":181, "debug":0},
+        "E_3":{"x":1014, "y":213, "debug":0},
+
+        "F_5":{"x":338, "y":335, "debug":0},
+        "F_4":{"x":338, "y":368, "debug":0},
+        "F_3":{"x":338, "y":400, "debug":0},
+        "G_5":{"x":580, "y":335, "debug":0},
+        "G_4":{"x":580, "y":368, "debug":0},
+        "G_3":{"x":580, "y":400, "debug":0},
+        "H_5":{"x":834, "y":335, "debug":0},
+        "H_4":{"x":834, "y":368, "debug":0},
+        "H_3":{"x":834, "y":400, "debug":0},
+        "I_5":{"x":1078, "y":335, "debug":0},
+        "I_4":{"x":1078, "y":368, "debug":0},
+        "I_3":{"x":1078, "y":400, "debug":0}
+      },
+      "entities":[
+        {
+          "x":901, "y":301, "type":"sprite", "texture":"pt_0", "name":"s_pt_0", "debug":0
+        },
+        {
+          "x":649, "y":301, "type":"sprite", "texture":"pt_1", "name":"s_pt_1", "debug":0
+        },
+        {
+          "x":395, "y":300, "type":"sprite", "texture":"pt_2", "name":"s_pt_2", "debug":0
+        },
+        {
+          "x":149, "y":299, "type":"sprite", "texture":"pt_3", "name":"s_pt_3", "debug":0
+        },
+        {
+          "x":794, "y":103, "type":"sprite", "texture":"pt_4", "name":"s_pt_4", "debug":0
+        },
+        {
+          "x":502, "y":99, "type":"sprite", "texture":"pt_5", "name":"s_pt_5", "debug":0
+        },
+        {
+          "x":204, "y":103, "type":"sprite", "texture":"pt_6", "name":"s_pt_6", "debug":0
+        },
+        {
+          "x":320, "y":455, "type":"sprite", "texture":"help_lines", "name":"s_help_lines", "debug":0
+        },
+        {
+          "x":353, "y":132, "type":"sprite", "texture":"pt_multiplier", "name":"s_pt_multiplier1", "debug":0
+        },
+        {
+          "x":653, "y":131, "type":"sprite", "texture":"pt_multiplier", "name":"s_pt_multiplier2", "debug":0
+        },
+        {
+          "x":946, "y":131, "type":"sprite", "texture":"pt_multiplier", "name":"s_pt_multiplier3", "debug":0
+        },
+        {
+          "x":270, "y":318, "type":"sprite", "texture":"pt_multiplier", "name":"s_pt_multiplier4", "debug":0
+        },
+        {
+          "x":513, "y":318, "type":"sprite", "texture":"pt_multiplier", "name":"s_pt_multiplier5", "debug":0
+        },
+        {
+          "x":766, "y":318, "type":"sprite", "texture":"pt_multiplier", "name":"s_pt_multiplier6", "debug":0
+        },
+        {
+          "x":1010, "y":318, "type":"sprite", "texture":"pt_multiplier", "name":"s_pt_multiplier7", "debug":0
+        },
+
+        {
+          "x":640, "y":51, "width":851, "height":50, "align":"center", "alignV":"middle",
+          "font":{"size":41, "name":"paytable_title_font"}, "checkFontSize":true, "name":"paytable_p2_t01",
+          "locConst":"paytable_p2_t01", "type":"textBitmap", "oneLine":true, "debug":0, "active":10
+        }
+      ]
+    },
+    {
+      "x":0, "y":0, "cacheAsBitmap":false,
+      "entities":[
+        {
+          "x":640, "y":51, "width":851, "height":50, "align":"center", "alignV":"middle",
+          "font":{"size":41, "name":"paytable_title_font"}, "checkFontSize":true, "name":"paytable_p3_t01",
+          "locConst":"paytable_p3_t01", "type":"textBitmap", "oneLine":true, "debug":0
+        },
+        {
+          "x":216, "y":79,
+          "interactiveChildren":true, "centered":false, "cacheAsBitmap":false,
+          "type":"container", "name":"c_canvas", "debug":0,
+          "entities":[
+            {
+              "x":0, "y":0, "width":846, "height":600, "align":"left", "alignV":"top",
+              "letterSpacing":0, "locCheck":true,
+              "default":{
+                "fontFamily":"Akrobat",
+                "fontSize":"22px",
+                "fill":"0xffffff"
+              },
+              "w":{
+                "fill":"0xFFC000"
+              },
+              "leading":0, "checkFontSize":true, "oneLine":false, "toUpperCase":false,
+              "locConst":"paytable_p3_t02", "type":"textMultiStyleFont", "name":"paytable_p3_t02", "debug":0,
+              "locConfig":{
+                "eng":{"fontSize":"24px"},
+                "gb":{"fontSize":"24px"},
+                "can":{"fontSize":"24px"},
+                "gre":{"fontSize":"19px"},
+                "jpn":{"fontSize":"19px"},
+                "nor":{"fontSize":"24px"},
+                "pol":{"fontSize":"21px"},
+                "swe":{"fontSize":"23px"},
+                "tur":{"fontSize":"24px"},
+                "vie":{"fontSize":"19px"},
+                "kor":{"fontSize":"21px"}
+              },
+              "format":true, "pos_dy":0
+            },
+
+            {
+              "x":424, "y":0, "width":851, "height":50, "align":"center", "alignV":"top",
+              "font":{"size":41, "name":"paytable_title_font"}, "checkFontSize":true, "name":"paytable_p1_t01",
+              "locConst":"paytable_p1_t01", "type":"textBitmap", "oneLine":true, "debug":0,
+              "format":true, "pos_dy":20
+            },
+            {
+              "x":0, "y":0, "width":846, "height":420, "align":"left", "alignV":"top",
+              "fontSize":"22px", "fontName":"Akrobat", "letterSpacing":0,
+              "dropShadow":true, "dropShadowAngle":90, "dropShadowBlur":4, "dropShadowDistance":4, "fill":"white",
+              "leading":0, "checkFontSize":true, "oneLine":false, "toUpperCase":false,
+              "locConst":"paytable_p3_t03", "type":"textFont", "name":"paytable_p3_t03", "debug":0,
+              "locConfig":{
+                "eng":{"fontSize":"24px"},
+                "gb":{"fontSize":"24px"},
+                "can":{"fontSize":"24px"},
+                "gre":{"fontSize":"19px"},
+                "jpn":{"fontSize":"21px"},
+                "nor":{"fontSize":"24px"},
+                "pol":{"fontSize":"21px"},
+                "swe":{"fontSize":"23px"},
+                "tur":{"fontSize":"24px"},
+                "vie":{"fontSize":"19px"},
+                "kor":{"fontSize":"21px"}
+              },
+              "format":true, "pos_dy":15
+            }
+          ],
+          "-alignContainer":{"x":0, "y":0, "rect":{"width":973, "height":550}, "edit":false}
+        }
+      ]
+    },
+    {
+      "x":0, "y":0, "cacheAsBitmap":false,
+      "entities":[
+        {
+          "x":640, "y":51, "width":851, "height":50, "align":"center", "alignV":"middle",
+          "font":{"size":41, "name":"paytable_title_font"}, "checkFontSize":true, "name":"paytable_rtp_1",
+          "locConst":"paytable_rtp_1", "type":"textBitmap", "oneLine":true, "debug":0
+        },
+        {
+          "x":216, "y":79,
+          "interactiveChildren":true, "centered":false, "cacheAsBitmap":false,
+          "type":"container", "name":"c_canvas", "debug":0,
+          "entities":[
+            {
+              "x":0, "y":0, "width":846, "height":200, "align":"left", "alignV":"top",
+              "fontSize":"24px", "fontName":"Akrobat", "letterSpacing":0,
+              "dropShadow":true, "dropShadowAngle":90, "dropShadowBlur":4, "dropShadowDistance":4, "fill":"white",
+              "leading":0, "checkFontSize":true, "oneLine":false, "toUpperCase":false,
+              "text":"The theoretical return to player for this game is %s%s.", "type":"textFont", "name":"t_rtp", "debug":0,
+              "locConfig":{
+                "rus":{"fontSize":"22px"},
+                "vie":{"fontSize":"23px"},
+                "hin":{"fontSize":"23px"}
+              },
+              "format":true, "pos_dy":0
+            },
+
+            {
+              "x":424, "y":0, "width":851, "height":50, "align":"center", "alignV":"top",
+              "font":{"size":41, "name":"paytable_title_font"}, "checkFontSize":true, "name":"jackpot_paytable_1",
+              "locConst":"jackpot_paytable_1", "type":"textBitmap", "oneLine":true, "debug":0,
+              "isJackpot":true,
+              "format":true, "pos_dy":20
+            },
+            {
+              "x":0, "y":0, "width":855, "height":527, "align":"left", "alignV":"top",
+              "fontSize":"24px", "fontName":"Akrobat", "letterSpacing":0,
+              "dropShadow":true, "dropShadowAngle":90, "dropShadowBlur":4, "dropShadowDistance":4, "fill":"white",
+              "leading":0, "checkFontSize":true, "oneLine":false, "toUpperCase":false,
+              "locConst":"jackpot_paytable_2", "type":"textFont", "name":"jackpot_paytable_2", "debug":0,
+              "locConfig":{
+                "rus":{"fontSize":"22px"},
+                "tha":{"fontSize":"23px"},
+                "vie":{"fontSize":"23px"},
+                "ita":{"fontSize":"23px"},
+                "hin":{"fontSize":"23px"}
+              },
+              "isJackpot":true,
+              "format":true, "pos_dy":15
+            }
+          ],
+          "-alignContainer":{"x":0, "y":0, "rect":{"width":860, "height":550}, "edit":false}
+        }
+      ]
+    },
+    {
+      "x":0, "y":0, "cacheAsBitmap":false, "jackPot":true,
+      "entities":[
+        {
+          "x":640, "y":51, "width":851, "height":50, "align":"center", "alignV":"middle",
+          "font":{"size":41, "name":"paytable_title_font"}, "checkFontSize":true, "name":"jackpot_paytable_1",
+          "locConst":"jackpot_paytable_1", "type":"textBitmap", "oneLine":true, "debug":0
+        },
+        {
+          "x":216, "y":79, "width":855, "height":527, "align":"left", "alignV":"top",
+          "fontSize":"24px", "fontName":"Akrobat", "letterSpacing":0,
+          "dropShadow":true, "dropShadowAngle":90, "dropShadowBlur":4, "dropShadowDistance":4, "fill":"white",
+          "leading":0, "checkFontSize":true, "oneLine":false, "toUpperCase":false,
+          "locConst":"jackpot_paytable_3", "type":"textFont", "name":"jackpot_paytable_3", "debug":0,
+          "locConfig":{
+            "rus":{"fontSize":"23px"},
+            "hin":{"fontSize":"23px"}
+          }
+        }
+      ]
+    },
+    {
+      "x":0, "y":0, "cacheAsBitmap":false, "jackPot":true,
+      "entities":[
+        {
+          "x":640, "y":51, "width":851, "height":50, "align":"center", "alignV":"middle",
+          "font":{"size":41, "name":"paytable_title_font"}, "checkFontSize":true, "name":"jackpot_paytable_1",
+          "locConst":"jackpot_paytable_1", "type":"textBitmap", "oneLine":true, "debug":0
+        },
+        {
+          "x":216, "y":79, "width":855, "height":527, "align":"left", "alignV":"top",
+          "fontSize":"24px", "fontName":"Akrobat", "letterSpacing":0,
+          "dropShadow":true, "dropShadowAngle":90, "dropShadowBlur":4, "dropShadowDistance":4, "fill":"white",
+          "leading":0, "checkFontSize":true, "oneLine":false, "toUpperCase":false,
+          "locConst":"jackpot_paytable_4", "type":"textFont", "name":"jackpot_paytable_4", "debug":0,
+          "locConfig":{
+            "rus":{"fontSize":"23px"},
+            "hin":{"fontSize":"22px"}
+          }
+        }
+      ]
+    }
+  ]
+}

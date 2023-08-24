@@ -1,0 +1,187 @@
+{
+  "debug":0, "visible":0,
+
+  "x":0, "y":0,
+  "m_x":0, "m_y":0, "sdx":0.5, "sdy":0.5,
+  "v_x":0, "v_y":0,
+
+  "m_i_width":1280, "m_i_height":720,
+  "v_i_width":720, "v_i_height":1280,
+
+  "close_bonus_sec":5,
+
+  "win_bet":[15, 20, 25, 30, 35, 50],
+  "delay_win_message_hide_sec":3,
+
+  "entities":[
+    {
+      "x":0, "y":0,
+      "sdx":-0.5, "sdy":-0.5,
+      "alpha":1, "debug":0, "name":"bg_layer", "type":"container",
+      "deepPosition":true,
+      "entities":[
+        {
+          "x":640, "y":360,
+          "m_x":640, "m_y":360,
+          "v_x":360, "v_y":640,
+          "texture":"bonus_bg", "v_texture":"bonus_bg_v", "name":"bonus_bg", "anchor":0.5, "type":"sprite", "debug":0
+        },
+        {
+          "x":640, "y":360, "dx":0, "dy":0, "isMobile":false,
+          "custom_a_name":"bonus", "textures":"bonus_bg_spine",
+          "play":true, "playLoop":true,
+          "type":"actorSpine", "totalLoop":0, "speed":1, "name":"bonus_bg_anim", "debug":0
+        },
+        {
+          "x":640, "y":360, "dx":0, "dy":0, "isMobile":true,
+          "portrait":false,
+          "custom_a_name":"bonus", "textures":"bonus_bg_spine",
+          "play":true, "playLoop":true,
+          "type":"actorSpine", "totalLoop":0, "speed":1, "name":"bonus_bg_anim", "debug":0, "active":1
+        },
+        {
+          "x":361, "y":591, "dx":0, "dy":0, "isMobile":true,
+          "portrait":true,
+          "custom_a_name":"bonus_v", "textures":"bonus_bg_v_spine",
+          "play":true, "playLoop":true,
+          "type":"actorSpine", "totalLoop":0, "speed":1, "name":"bonus_bg_anim_v", "debug":0, "active":1
+        }
+      ]
+    },
+    {
+      "x":0, "y":0,
+      "m_x":0, "m_y":0,
+      "v_x":0, "v_y":50,
+      "type":"sprite", "texture":"free", "m_texture":"bonus", "v_texture":"bonus_v", "name":"s_main", "debug":0, "active":0
+    },
+    {
+      "x":1004, "y":226, "dx":0, "dy":0,
+      "v_x":509, "v_y":215,
+      "name":"gnome", "custom_a_name":"gnome", "textures":"gnome",
+      "type":"actorSpine", "totalLoop":0, "speed":1, "debug":0
+    },
+    {
+      "x":610, "y":290,
+      "v_x":467, "v_y":469,
+      "debug":0, "autoStart":true, "scaleMod":1,
+      "name":"jackpot_coin", "interactiveChildren":true,
+      "revoltName":"glowy", "type":"revoltEmmiter"
+    },
+
+    {
+      "x":713, "y":390, "v_x":289, "v_y":309,
+      "texture":"pot_glow", "name":"pot_glow_4", "type":"sprite", "anchor":0.5, "debug":0
+    },
+    {
+      "x":719, "y":403, "v_x":295, "v_y":322,
+      "texture":"pot_4", "name":"pot_4", "type":"sprite", "anchor":0.5, "debug":0
+    },
+
+    {
+      "x":983, "y":400, "v_x":523, "v_y":384,
+      "texture":"pot_glow", "name":"pot_glow_5", "type":"sprite", "anchor":0.5, "debug":0
+    },
+    {
+      "x":980, "y":425, "v_x":520, "v_y":409,
+      "texture":"pot_5", "name":"pot_5", "type":"sprite", "anchor":0.5, "debug":0
+    },
+
+    {
+      "x":466, "y":352, "v_x":360, "v_y":533,
+      "texture":"pot_glow", "name":"pot_glow_3", "type":"sprite", "anchor":0.5, "debug":0
+    },
+    {
+      "x":459, "y":400, "v_x":353, "v_y":581,
+      "texture":"pot_3", "name":"pot_3", "type":"sprite", "anchor":0.5, "debug":0
+    },
+
+    {
+      "x":521, "y":512, "v_x":258, "v_y":765,
+      "texture":"pot_glow", "name":"pot_glow_2", "type":"sprite", "anchor":0.5, "debug":0
+    },
+    {
+      "x":510, "y":548, "v_x":247, "v_y":801,
+      "texture":"pot_2", "name":"pot_2", "type":"sprite", "anchor":0.5, "debug":0
+    },
+
+    {
+      "x":854, "y":509, "v_x":539, "v_y":793,
+      "texture":"pot_glow", "name":"pot_glow_1", "type":"sprite", "anchor":0.5, "debug":0
+    },
+    {
+      "x":846, "y":549, "v_x":531, "v_y":833,
+      "texture":"pot_1", "name":"pot_1", "type":"sprite", "anchor":0.5, "debug":0
+    },
+
+    {
+      "x":984, "y":328, "v_x":524, "v_y":312,
+      "texture":"gold_5", "name":"gold_5", "type":"sprite", "anchor":0.5, "debug":0
+    },
+    {
+      "x":720, "y":308, "v_x":296, "v_y":227,
+      "texture":"gold_4", "name":"gold_4", "type":"sprite", "anchor":0.5, "debug":0
+    },
+    {
+      "x":456, "y":304, "v_x":350, "v_y":485,
+      "texture":"gold_3", "name":"gold_3", "type":"sprite", "anchor":0.5, "debug":0
+    },
+    {
+      "x":513, "y":442, "v_x":250, "v_y":695,
+      "texture":"gold_2", "name":"gold_2", "type":"sprite", "anchor":0.5, "debug":0
+    },
+    {
+      "x":842, "y":443, "v_x":527, "v_y":727,
+      "texture":"gold_1", "name":"gold_1", "type":"sprite", "anchor":0.5, "debug":0
+    },
+
+    {
+      "x":796, "y":211, "dx":0, "dy":0, "scaleX":2, "scaleY":4,
+      "v_x":431, "v_y":404,
+      "cacheName":"bonus_rainbow", "nameAnimation":"bonus_rainbow",
+      "type":"actor", "totalLoop":0, "speed":1, "fps":30, "name":"rainbow", "debug":0
+    },
+
+    {
+      "x":270, "y":599, "dx":0, "dy":0, "scale":1.0,
+      "v_x":75, "v_y":964, "v_scale":0.9,
+      "name":"baba", "custom_a_name":"baba", "textures":"baba",
+      "type":"actorSpine", "totalLoop":0, "speed":1, "debug":0
+    },
+
+    {
+      "x":843, "y":524, "v_x":528, "v_y":808,
+      "width":166, "height":42, "align":"center", "alignV":"middle",
+      "font":{"size":45, "name":"bonus_disabled_font"}, "name":"t_win_1",
+      "font_win":{"size":45, "name":"bonus_active_font"},
+      "text":"100", "type":"textNumberBitmap", "oneLine":true, "debug":0
+    },
+    {
+      "x":502, "y":526, "v_x":239, "v_y":779,
+      "width":166, "height":42, "align":"center", "alignV":"middle",
+      "font":{"size":45, "name":"bonus_disabled_font"}, "name":"t_win_2",
+      "font_win":{"size":45, "name":"bonus_active_font"},
+      "text":"100", "type":"textNumberBitmap", "oneLine":true, "debug":0
+    },
+    {
+      "x":456, "y":381, "v_x":350, "v_y":562,
+      "width":166, "height":42, "align":"center", "alignV":"middle",
+      "font":{"size":45, "name":"bonus_disabled_font"}, "name":"t_win_3",
+      "font_win":{"size":45, "name":"bonus_active_font"},
+      "text":"100", "type":"textNumberBitmap", "oneLine":true, "debug":0
+    },
+    {
+      "x":717, "y":383, "v_x":293, "v_y":302,
+      "width":166, "height":42, "align":"center", "alignV":"middle",
+      "font":{"size":45, "name":"bonus_disabled_font"}, "name":"t_win_4",
+      "font_win":{"size":45, "name":"bonus_active_font"},
+      "text":"100", "type":"textNumberBitmap", "oneLine":true, "debug":0
+    },
+    {
+      "x":974, "y":405, "v_x":514, "v_y":389,
+      "width":166, "height":42, "align":"center", "alignV":"middle",
+      "font":{"size":45, "name":"bonus_disabled_font"}, "name":"t_win_5",
+      "font_win":{"size":45, "name":"bonus_active_font"},
+      "text":"100", "type":"textNumberBitmap", "oneLine":true, "debug":0
+    }
+  ]
+}

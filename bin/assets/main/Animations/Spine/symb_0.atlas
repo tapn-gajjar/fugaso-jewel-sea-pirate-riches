@@ -1,0 +1,27 @@
+
+symb_0.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+3Emesive
+  rotate: true
+  xy: 1, 239
+  size: 129, 182
+  orig: 134, 186
+  offset: 2, 2
+  index: -1
+3Emesive copy
+  rotate: true
+  xy: 184, 236
+  size: 132, 184
+  orig: 134, 186
+  offset: 0, 2
+  index: -1
+Group 5
+  rotate: true
+  xy: 1, 89
+  size: 146, 209
+  orig: 146, 210
+  offset: 0, 0
+  index: -1

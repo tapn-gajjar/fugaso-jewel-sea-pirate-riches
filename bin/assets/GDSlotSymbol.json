@@ -1,0 +1,45 @@
+{
+  "symbName":"symb_",
+  "blurSymbName":"symb_blur_",
+  "blockSymbName":"symb_block_",
+  "textureName":"symb_1",
+
+  "debug_rect":false,
+
+  "block_alpha":0.35,
+
+  "delay_change_symbol":0.25,
+  "bg_symbol":{
+    "x":0, "y":0, "anchor":0.5,
+    "type":"sprite", "texture":"symb_ex_bg", "name":"s_symb_ex_bg", "debug":0
+  },
+
+  "wild":{
+    "x":0, "y":0, "dx":-83, "dy":-62, "speed":1, "scale":0.617,
+    "play":false, "playLoop":false, "a_idle":"1-Idle",
+    "textures":"Gang", "custom_a_name":"2-Wild drop with coins", "name":"a_wild",
+    "type":"actorSpine", "debug":0
+  },
+  "wild_second":{
+    "x":0, "y":0, "dx":-83, "dy":-62, "speed":1, "scale":0.617,
+    "play":false, "playLoop":false, "a_idle":"1-Idle",
+    "textures":"Gang", "custom_a_name":"3-Wild drop with coins & gems", "name":"a_wild2",
+    "type":"actorSpine", "debug":0
+  },
+  "wait":{
+    "x":0, "y":0, "dx":0, "dy":0, "speed":1,
+    "textures":"symbol_9", "custom_a_name":"symbol_9_win", "name":"a_symbol_effect_9",
+    "type":"actorSpine", "debug":0
+  },
+  "scatter":{
+    "x":0, "y":0, "dx":0, "dy":0, "speed":1,
+    "textures":"symbol_9", "custom_a_name":"symbol_9_trigger", "name":"a_symbol_effect_9",
+    "type":"actorSpine", "debug":0
+  },
+
+  "-9":{
+    "x":0, "y":0, "dx":0, "dy":0, "anchor":0.5,
+    "cacheName":"symbol_9_pre", "nameAnimation":"symbol_9_pre",
+    "type":"actor", "fps":30, "speed":1, "debug":0
+  }
+}

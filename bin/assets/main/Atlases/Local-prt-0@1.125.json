@@ -1,0 +1,20 @@
+{"frames": {
+
+"big_win_pt-PRT":
+{
+	"frame": {"x":1,"y":1,"w":1012,"h":215},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":1012,"h":215},
+	"sourceSize": {"w":1012,"h":215}
+}},
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "Local-prt-0@1.125.png",
+	"format": "RGBA8888",
+	"size": {"w":1014,"h":217},
+	"scale": "0.75",
+	"smartupdate": "$TexturePacker:SmartUpdate:acd1e60e2d6ab6138629a721cca871ac:4d1ba68589f368a4577125c5ac5436fe:d1a2338dd5a0287d7c8173aeb78e671c$"
+}
+}

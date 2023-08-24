@@ -1,0 +1,41 @@
+
+symb_5.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Layer 39
+  rotate: false
+  xy: 1, 15
+  size: 143, 163
+  orig: 148, 173
+  offset: 2, 5
+  index: -1
+Layer 39 copy
+  rotate: false
+  xy: 244, 42
+  size: 147, 153
+  orig: 147, 153
+  offset: 0, 0
+  index: -1
+Layer 40 copy
+  rotate: true
+  xy: 145, 128
+  size: 50, 48
+  orig: 50, 48
+  offset: 0, 0
+  index: -1
+Paiper
+  rotate: false
+  xy: 244, 196
+  size: 176, 224
+  orig: 189, 224
+  offset: 0, 0
+  index: -1
+ssfasfa_00000
+  rotate: false
+  xy: 1, 179
+  size: 242, 241
+  orig: 251, 251
+  offset: 5, 5
+  index: -1

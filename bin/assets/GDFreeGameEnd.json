@@ -1,0 +1,54 @@
+{
+  "show_debug":0, "debug":0, "test_win_value":1000000,
+
+  "x":0, "y":0,
+
+  "window_auto_hide":true,
+  "window_show_sec":3.5,
+  "time_alpha":1.0,
+
+  "entities":[
+    {
+      "x":0, "y":0, "width":1280, "height":720, "sdx":-0.5, "sdy":-0.5,
+      "color":"0x000000", "alpha":0.7, "time_tween":0.8, "delay":0.2,
+      "type":"rect", "name":"r_bonus_tint", "debug":0, "active":0
+    },
+
+    {
+      "x":0, "y":0, "anchor":0,
+      "v_x":-594, "v_y":0,
+      "m_i_width":1920, "m_i_height":1080,
+      "v_i_width":1920, "v_i_height":1080,
+      "type":"sprite", "texture":"pyramid_bg.jpg", "name":"s_free_bg", "debug":0, "active":1
+    },
+    {
+      "x":647, "y":89, "sdx":0.5, "sdy":0.5,
+      "v_x":263, "v_y":195, "v_scale":0.78,
+      "interactiveChildren":true, "centered":false, "cacheAsBitmap":false, "deepPosition":true,
+      "type":"container", "name":"c_free_info", "debug":0,
+      "entities":[
+        {
+          "x":10, "y":33, "v_width":650,
+          "width":1109, "height":148, "align":"center", "alignV":"middle",
+          "font":{"size":79, "name":"bonus_font_100"}, "letterSpacing":0,
+          "checkFontSize":true, "oneLine":true, "toUpperCase":true,
+          "locConst":"free_start_1", "type":"textBitmap", "name":"t_1", "debug":0
+        },
+        {
+          "x":4, "y":124, "v_width":650,
+          "width":1109, "height":148, "align":"center", "alignV":"middle",
+          "font":{"size":70, "name":"bonus_font_70"}, "letterSpacing":0,
+          "checkFontSize":true, "oneLine":true, "toUpperCase":true,
+          "locConst":"free_start_2", "type":"textBitmap", "name":"t_2", "debug":0
+        },
+        {
+          "x":4, "y":372, "v_width":650,
+          "width":1020, "height":148, "align":"center", "alignV":"middle",
+          "font":{"size":180, "name":"bonus_numbers_font_180"}, "letterSpacing":0,
+          "checkFontSize":true, "oneLine":true, "toUpperCase":true, "showCent":true,
+          "text":"1000000000", "type":"textNumberBitmap", "name":"t_total_win", "debug":0
+        }
+      ]
+    }
+  ]
+}

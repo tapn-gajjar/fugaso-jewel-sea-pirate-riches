@@ -1,0 +1,20 @@
+{"frames": {
+
+"big_win_nw-NOR":
+{
+	"frame": {"x":1,"y":1,"w":849,"h":203},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":849,"h":203},
+	"sourceSize": {"w":849,"h":203}
+}},
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "Local-nor-0@1.125.png",
+	"format": "RGBA8888",
+	"size": {"w":851,"h":205},
+	"scale": "0.75",
+	"smartupdate": "$TexturePacker:SmartUpdate:8a1c390d6c0ad36d91aba88cfeb1877e:6a6e45e1e38377d4f4aa212693fff90e:faf4ef6928d59b1f1b2c6d1defeca041$"
+}
+}

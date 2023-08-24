@@ -1,0 +1,236 @@
+
+Gang.png
+size: 2028, 1801
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+BLue Cristal  copy 2
+  rotate: true
+  xy: 618, 1715
+  size: 86, 122
+  orig: 86, 122
+  offset: 0, 0
+  index: -1
+Flare
+  rotate: false
+  xy: 144, 1587
+  size: 155, 146
+  orig: 155, 146
+  offset: 0, 0
+  index: -1
+Greren Cristal  copy 2
+  rotate: true
+  xy: 742, 1715
+  size: 86, 122
+  orig: 86, 122
+  offset: 0, 0
+  index: -1
+Layer 153
+  rotate: true
+  xy: 1433, 1399
+  size: 260, 414
+  orig: 262, 483
+  offset: 1, 1
+  index: -1
+Layer 155
+  rotate: true
+  xy: 861, 1089
+  size: 308, 816
+  orig: 319, 839
+  offset: 5, 7
+  index: -1
+Layer 1552 copy
+  rotate: true
+  xy: 766, 718
+  size: 369, 735
+  orig: 401, 911
+  offset: 13, 27
+  index: -1
+Layer 156
+  rotate: true
+  xy: 2, 1224
+  size: 260, 857
+  orig: 262, 971
+  offset: 1, 1
+  index: -1
+Layer 157
+  rotate: false
+  xy: 301, 1575
+  size: 250, 142
+  orig: 252, 163
+  offset: 1, 11
+  index: -1
+Layer 29
+  rotate: true
+  xy: 553, 1486
+  size: 217, 419
+  orig: 220, 422
+  offset: 2, 1
+  index: -1
+Layer 29 copy
+  rotate: true
+  xy: 974, 1464
+  size: 222, 457
+  orig: 225, 461
+  offset: 1, 3
+  index: -1
+Layer 31
+  rotate: false
+  xy: 504, 4
+  size: 836, 712
+  orig: 840, 715
+  offset: 2, 1
+  index: -1
+Layer 44
+  rotate: false
+  xy: 2, 911
+  size: 762, 311
+  orig: 904, 697
+  offset: 71, 386
+  index: -1
+Layer 45
+  rotate: true
+  xy: 1503, 634
+  size: 453, 523
+  orig: 991, 874
+  offset: 268, 130
+  index: -1
+Untitled-1
+  rotate: false
+  xy: 2, 409
+  size: 500, 500
+  orig: 500, 500
+  offset: 0, 0
+  index: -1
+coin_gold_big_00
+  rotate: false
+  xy: 1839, 1661
+  size: 140, 140
+  orig: 140, 140
+  offset: 0, 0
+  index: -1
+coin_gold_big_01
+  rotate: false
+  xy: 1719, 1683
+  size: 118, 118
+  orig: 140, 140
+  offset: 12, 13
+  index: -1
+coin_gold_big_02
+  rotate: true
+  xy: 1354, 1688
+  size: 113, 121
+  orig: 140, 140
+  offset: 17, 10
+  index: -1
+coin_gold_big_03
+  rotate: true
+  xy: 1231, 1694
+  size: 107, 121
+  orig: 140, 140
+  offset: 22, 10
+  index: -1
+coin_gold_big_04
+  rotate: true
+  xy: 986, 1704
+  size: 97, 121
+  orig: 140, 140
+  offset: 28, 10
+  index: -1
+coin_gold_big_05
+  rotate: true
+  xy: 374, 1719
+  size: 82, 120
+  orig: 140, 140
+  offset: 35, 11
+  index: -1
+coin_gold_big_06
+  rotate: false
+  xy: 2, 1612
+  size: 140, 140
+  orig: 140, 140
+  offset: 0, 0
+  index: -1
+coin_gold_big_07
+  rotate: true
+  xy: 2, 1754
+  size: 47, 122
+  orig: 140, 140
+  offset: 49, 10
+  index: -1
+coin_gold_big_08
+  rotate: true
+  xy: 126, 1754
+  size: 47, 122
+  orig: 140, 140
+  offset: 43, 10
+  index: -1
+coin_gold_big_09
+  rotate: true
+  xy: 250, 1735
+  size: 66, 122
+  orig: 140, 140
+  offset: 31, 10
+  index: -1
+coin_gold_big_10
+  rotate: true
+  xy: 496, 1719
+  size: 82, 120
+  orig: 140, 140
+  offset: 22, 11
+  index: -1
+coin_gold_big_11
+  rotate: true
+  xy: 866, 1705
+  size: 96, 118
+  orig: 140, 140
+  offset: 15, 13
+  index: -1
+coin_gold_big_12
+  rotate: true
+  xy: 1109, 1695
+  size: 106, 120
+  orig: 140, 140
+  offset: 11, 11
+  index: -1
+coin_gold_big_13
+  rotate: true
+  xy: 1477, 1688
+  size: 113, 121
+  orig: 140, 140
+  offset: 10, 10
+  index: -1
+coin_gold_big_14
+  rotate: false
+  xy: 1600, 1684
+  size: 117, 117
+  orig: 140, 140
+  offset: 10, 14
+  index: -1
+
+Gang_2.png
+size: 1738, 1567
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+Layer 23
+  rotate: false
+  xy: 874, 718
+  size: 862, 849
+  orig: 880, 880
+  offset: 0, 0
+  index: -1
+Layer 32
+  rotate: false
+  xy: 874, 4
+  size: 836, 712
+  orig: 840, 715
+  offset: 2, 1
+  index: -1
+Ruyl
+  rotate: true
+  xy: 2, 581
+  size: 986, 870
+  orig: 990, 874
+  offset: 2, 2
+  index: -1

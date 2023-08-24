@@ -1,0 +1,20 @@
+{"frames": {
+
+"big_win_uk-UKR":
+{
+	"frame": {"x":1,"y":1,"w":851,"h":181},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":851,"h":181},
+	"sourceSize": {"w":851,"h":181}
+}},
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "Local-ukr-0@1.125.png",
+	"format": "RGBA8888",
+	"size": {"w":853,"h":183},
+	"scale": "0.75",
+	"smartupdate": "$TexturePacker:SmartUpdate:0a01b53e5c96e83b50ed8ca6f6942924:3103c0c556a4f39ee59b08bd5d0f9039:7cd79276932ad904454477dfd6eeadce$"
+}
+}

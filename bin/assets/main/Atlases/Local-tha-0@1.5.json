@@ -1,0 +1,20 @@
+{"frames": {
+
+"big_win_th-THA":
+{
+	"frame": {"x":1,"y":1,"w":568,"h":234},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":568,"h":234},
+	"sourceSize": {"w":568,"h":234}
+}},
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "Local-tha-0@1.5.png",
+	"format": "RGBA8888",
+	"size": {"w":570,"h":236},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:864328506ced487ebad881a820c6a61b:3ddedcabea6d306c7dd54df0aa7c3f0c:651ec6e7dfbd7390e3f8dd71a3a51aad$"
+}
+}

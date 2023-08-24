@@ -1,0 +1,11 @@
+[
+  {"loader":"loadJson", "name":"GDWarning", "file":"assets/"},
+  {"loader":"loadJson", "deviceFolder":true, "name":"loadConfig", "file":""},
+  {"loader":"loadJson", "name":"GDGameLoader", "file":"assets/"},
+  {"loader":"loadJson", "name":"BootLoad2", "file":"assets/"},
+  {"loader":"loadJson", "name":"Render", "file":"assets/"},
+
+  {"loader":"loadLocal", "specType":"language", "name":"language", "file":"assets/language/"},
+
+  {"loader":"loadAtlas",  "resolution":true, "name":"Warning", "file":"assets/main/Atlases/"}
+]

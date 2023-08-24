@@ -1,0 +1,173 @@
+{
+  "show_debug":0, "debug":0,
+
+  "x":0, "y":0,
+
+  "window_auto_hide":false,
+  "window_show_sec":4.0,
+
+  "delay_show_pyramid":4,
+  "time_alpha":1.0,
+
+  "entities":[
+    {
+      "x":0, "y":0, "width":1280, "height":720,
+      "color":"0x000000", "alpha":0.7, "time_tween":0.5,
+      "type":"rect", "name":"r_bonus_tint", "debug":0, "active":0
+    },
+    {
+      "x":0, "y":0, "anchor":0,
+      "v_x":-1053, "v_y":0,
+      "m_i_width":1920, "m_i_height":1080,
+      "v_i_width":1920, "v_i_height":1080,
+      "type":"sprite", "texture":"pyramid_bg.jpg", "name":"s_free_bg", "debug":0, "active":1
+    },
+    {
+      "x":0, "y":0, "alpha":1,
+      "time_tween":0.5,
+      "type":"sprite", "texture":"start_free.png", "v_texture":"free_spins_tint_v", "name":"r_bonus_tint", "debug":0, "active":0
+    },
+
+    {
+      "x":647, "y":89, "sdx":0.5, "sdy":0.5,
+      "v_x":263, "v_y":195, "v_scale":0.65, "deepPosition":true,
+      "interactiveChildren":true, "centered":false, "cacheAsBitmap":false,
+      "type":"container", "name":"c_free_info", "debug":0,
+      "entities":[
+        {
+          "x":0, "y":0, "anchor":0.5, "type":"sprite", "texture":"you_win_en_US", "name":"s_you_win_en_US", "debug":0, "active":0
+        },
+        {
+          "x":10, "y":33, "v_width":820,
+          "width":1109, "height":148, "align":"center", "alignV":"middle",
+          "font":{"size":79, "name":"bonus_font_100"}, "letterSpacing":0,
+          "checkFontSize":true, "oneLine":true, "toUpperCase":true,
+          "locConst":"free_start_1", "type":"textBitmap", "name":"t_1", "debug":0
+        },
+        {
+          "x":4, "y":124, "v_width":800,
+          "width":1109, "height":148, "align":"center", "alignV":"middle",
+          "font":{"size":70, "name":"bonus_font_70"}, "letterSpacing":0,
+          "checkFontSize":true, "oneLine":true, "toUpperCase":true,
+          "locConst":"free_start_2", "type":"textBitmap", "name":"t_2", "debug":0
+        },
+
+        {
+          "x":-1, "y":272,
+          "interactiveChildren":true, "centered":false, "cacheAsBitmap":false,
+          "type":"container", "name":"c_count", "debug":0,
+          "entities":[
+            {
+              "x":263, "y":72,
+              "interactiveChildren":true, "centered":false, "cacheAsBitmap":false,
+              "type":"container", "name":"c_t", "debug":0,
+              "entities":[
+                {
+                  "x":0, "y":0,
+                  "width":564, "height":84, "align":"left", "alignV":"middle",
+                  "font":{"size":73, "name":"bonus_font_70"}, "letterSpacing":0,
+                  "checkFontSize":true, "oneLine":true, "toUpperCase":true,
+                  "locConst":"free_start_3", "type":"textBitmap", "name":"t_3", "debug":0
+                },
+                {
+                  "x":0, "y":71,
+                  "width":607, "height":128, "align":"left", "alignV":"middle",
+                  "font":{"size":100, "name":"bonus_font_100"}, "letterSpacing":0,
+                  "checkFontSize":true, "oneLine":true, "toUpperCase":true,
+                  "locConst":"free_start_4", "type":"textBitmap", "name":"t_4", "debug":0
+                }
+              ],
+              "alignContainer":{"x":0, "y":0.5, "rect":{"width":704, "height":211}, "edit":false}
+            },
+
+            {
+              "x":211, "y":109,
+              "width":340, "height":148, "align":"right", "alignV":"middle",
+              "font":{"size":180, "name":"bonus_numbers_font_180"}, "letterSpacing":0,
+              "checkFontSize":true, "oneLine":true, "toUpperCase":true,
+              "text":"10", "type":"textBitmap", "name":"t_free_counter", "debug":0
+            }
+          ],
+          "alignContainer":{"x":0.5, "y":0.5, "rect":{"width":1098, "height":213}, "edit":false}
+        },
+
+        {
+          "x":7, "y":455,
+          "interactiveChildren":true, "centered":false, "cacheAsBitmap":false,
+          "type":"container", "name":"c_info", "debug":0,
+          "entities":[
+            {
+              "x":0, "y":0, "v_width":295,
+              "width":495, "height":148, "align":"right", "alignV":"middle",
+              "font":{"size":56, "name":"bonus_font_70"}, "letterSpacing":0,
+              "checkFontSize":true, "oneLine":true, "toUpperCase":true,
+              "locConst":"free_start_5", "type":"textBitmap", "name":"t_5", "debug":0
+            },
+            {
+              "x":203, "y":0,
+              "width":387, "height":148, "align":"left", "alignV":"middle",
+              "font":{"size":56, "name":"bonus_font_70"}, "letterSpacing":0,
+              "checkFontSize":true, "oneLine":true, "toUpperCase":true,
+              "locConst":"free_start_6", "type":"textBitmap", "name":"t_6", "debug":0
+            },
+            {
+              "x":38, "y":-118, "scale":0.81,
+              "type":"sprite", "texture":"symb_9", "name":"s_bonus", "debug":0
+            }
+          ],
+          "alignContainer":{"x":0.5, "y":0.5, "rect":{"width":990, "height":250}, "edit":false}
+        },
+        {
+          "x":12, "y":570, "v_width":731,
+          "width":1109, "height":148, "align":"center", "alignV":"middle",
+          "font":{"size":60, "name":"bonus_font_70"}, "letterSpacing":0,
+          "checkFontSize":true, "oneLine":true, "toUpperCase":true,
+          "locConst":"free_start_7", "type":"textBitmap", "name":"t_7", "debug":0
+        }
+      ]
+    },
+    {
+      "x":0, "y":0,
+      "deepPosition":true,
+      "interactiveChildren":true, "centered":false, "cacheAsBitmap":false,
+      "type":"container", "name":"c_pyramid", "debug":0,
+      "entities":[
+        {
+          "x":0, "y":0,
+          "v_x":-1053, "v_y":0,
+          "m_i_width":1920, "m_i_height":1080,
+          "v_i_width":1920, "v_i_height":1080,
+          "type":"sprite", "texture":"pyramid_bg.jpg", "name":"s_bg", "debug":0
+        },
+        {
+          "x":640, "y":359, "sdx":0.5, "sdy":1,
+          "v_x":272, "v_y":667, "v_scale":0.81,
+          "dx":0, "dy":0, "speed":1,
+          "play":false, "playLoop":false, "time_tween":0.5,
+          "textures":"pyramid_bonus", "custom_a_name":"pyramid_start", "name":"a_pyramid_bonus",
+          "case_symbol":"symbol_trigger",
+          "skins":{
+            "D":"symbol_10",
+            "E":"symbol_j",
+            "F":"symbol_q",
+            "G":"symbol_k",
+            "H":"symbol_a",
+            "I":"symbol_mask",
+            "X":"symbol_anubis",
+            "Y":"symbol_bastest",
+            "Z":"symbol_ra"
+          },
+          "type":"actorSpine", "debug":0
+        }
+      ]
+    },
+
+    {
+      "x":1070, "y":501, "scale":0.84,
+      "m_sdx":0.75, "m_sdy":0.5,
+      "v_x":211, "v_y":637, "v_sdx":0.5, "v_sdy":0.75, "v_scale":0.69,
+      "alpha":1, "type":"button", "out":"b_spin_0", "over":"b_spin_1",
+      "down":"b_spin_2", "block":"b_spin_3", "debug":0, "name":"b_start"
+    }
+  ]
+}

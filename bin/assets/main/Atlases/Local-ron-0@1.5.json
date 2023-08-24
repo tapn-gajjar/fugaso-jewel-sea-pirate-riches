@@ -1,0 +1,20 @@
+{"frames": {
+
+"big_win_ro-RON":
+{
+	"frame": {"x":1,"y":1,"w":1485,"h":412},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":1485,"h":412},
+	"sourceSize": {"w":1485,"h":412}
+}},
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "Local-ron-0@1.5.png",
+	"format": "RGBA8888",
+	"size": {"w":1487,"h":414},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:786df4b431441e82ebbaefe239b81c45:5ec0af0fa49ca58a8ff4e9b4a387e2fc:22cc6a871243d6fd4053f934beb32746$"
+}
+}

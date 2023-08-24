@@ -1,0 +1,20 @@
+{"frames": {
+
+"big_win_ko-KOR":
+{
+	"frame": {"x":1,"y":1,"w":130,"h":61},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":130,"h":61},
+	"sourceSize": {"w":130,"h":61}
+}},
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "Local-kor-0@0.375.png",
+	"format": "RGBA8888",
+	"size": {"w":132,"h":63},
+	"scale": "0.25",
+	"smartupdate": "$TexturePacker:SmartUpdate:71f291482514e7261b4601762865bee2:daf9e52261a17fb6cd04e2b62f71af53:dc9ea8455d1c21e8f050ced873135c07$"
+}
+}

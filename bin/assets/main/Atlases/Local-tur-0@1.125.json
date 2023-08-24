@@ -1,0 +1,20 @@
+{"frames": {
+
+"big_win_tk-TUR":
+{
+	"frame": {"x":1,"y":1,"w":896,"h":237},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":896,"h":237},
+	"sourceSize": {"w":896,"h":237}
+}},
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "Local-tur-0@1.125.png",
+	"format": "RGBA8888",
+	"size": {"w":898,"h":239},
+	"scale": "0.75",
+	"smartupdate": "$TexturePacker:SmartUpdate:975750ab6d7aadedbb1b0b8b0f0ddf07:4291dbd74de2f6232475e6ba7b7c34a2:329d4f027dd19cdbb7a9cc376ed6afe6$"
+}
+}

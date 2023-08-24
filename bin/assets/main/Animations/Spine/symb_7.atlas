@@ -1,0 +1,62 @@
+
+symb_7.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+70
+  rotate: true
+  xy: 430, 360
+  size: 158, 138
+  orig: 161, 147
+  offset: 1, 6
+  index: -1
+71
+  rotate: false
+  xy: 592, 625
+  size: 142, 109
+  orig: 247, 218
+  offset: 53, 31
+  index: -1
+Layer 23
+  rotate: false
+  xy: 250, 519
+  size: 211, 215
+  orig: 220, 220
+  offset: 3, 3
+  index: -1
+Layer 31
+  rotate: true
+  xy: 250, 308
+  size: 210, 179
+  orig: 210, 179
+  offset: 0, 0
+  index: -1
+Layer 32
+  rotate: true
+  xy: 1, 304
+  size: 210, 179
+  orig: 210, 179
+  offset: 0, 0
+  index: -1
+Layer 44
+  rotate: false
+  xy: 462, 545
+  size: 190, 77
+  orig: 226, 174
+  offset: 18, 97
+  index: -1
+Layer 45
+  rotate: true
+  xy: 462, 623
+  size: 111, 129
+  orig: 248, 219
+  offset: 68, 33
+  index: -1
+Ruyl
+  rotate: false
+  xy: 1, 515
+  size: 248, 219
+  orig: 248, 219
+  offset: 0, 0
+  index: -1
